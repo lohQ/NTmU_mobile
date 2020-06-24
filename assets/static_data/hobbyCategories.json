@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Arts"
+    },
+    {
+        "id": 8,
+        "name": "Arts"
+    },
+    {
+        "id": 15,
+        "name": "Arts"
+    },
+    {
+        "id": 2,
+        "name": "Dancing"
+    },
+    {
+        "id": 9,
+        "name": "Dancing"
+    },
+    {
+        "id": 16,
+        "name": "Dancing"
+    },
+    {
+        "id": 3,
+        "name": "Indoor"
+    },
+    {
+        "id": 10,
+        "name": "Indoor"
+    },
+    {
+        "id": 17,
+        "name": "Indoor"
+    },
+    {
+        "id": 4,
+        "name": "Martial Arts"
+    },
+    {
+        "id": 11,
+        "name": "Martial Arts"
+    },
+    {
+        "id": 18,
+        "name": "Martial Arts"
+    },
+    {
+        "id": 5,
+        "name": "Observation"
+    },
+    {
+        "id": 12,
+        "name": "Observation"
+    },
+    {
+        "id": 19,
+        "name": "Observation"
+    },
+    {
+        "id": 7,
+        "name": "Outdoor"
+    },
+    {
+        "id": 14,
+        "name": "Outdoor"
+    },
+    {
+        "id": 21,
+        "name": "Outdoor"
+    },
+    {
+        "id": 6,
+        "name": "Sports"
+    },
+    {
+        "id": 13,
+        "name": "Sports"
+    },
+    {
+        "id": 20,
+        "name": "Sports"
+    }
+]

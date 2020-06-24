@@ -1,0 +1,256 @@
+[
+    {
+      "id": 371,
+      "user_2": {
+        "id": 318,
+        "fullname": "Zara Michaela Teo",
+        "gender": "Female",
+        "description": "Hello! My name is Zara and I am looking for like-minded people to bond with :-)\r\n\r\nPlease accept my match if you want to chat or hang out",
+        "hobbies": [
+          "Baking",
+          "Cooking",
+          "Gaming",
+          "Rock climbing",
+          "Volunteering"
+        ],
+        "date_of_birth": "1996-01-01",
+        "country_of_origin": "Singapore",
+        "religion": "Catholicism",
+        "course_of_study": "Philosophy\n",
+        "year_of_matriculation": 2019,
+        "avatar": "/media/profile_image/Zara-photo.jpg"
+      },
+      "timestamp": "2020-04-06T18:11:17.828528+08:00",
+      "user_1_choice": 1,
+      "user_2_choice": 0,
+      "description": "No users currently matches your preference, the match provided will only follow your gender preferences.",
+      "successful": true
+    },
+    {
+      "id": 348,
+      "user_2": {
+        "id": 323,
+        "fullname": "Francine Ho",
+        "gender": "Female",
+        "description": "hello im francine! hmu :)",
+        "hobbies": [
+          "Backpacking",
+          "Golfing",
+          "Piano"
+        ],
+        "date_of_birth": "1999-08-01",
+        "country_of_origin": "Singapore",
+        "religion": "Christianity",
+        "course_of_study": "Civil Engineering\n",
+        "year_of_matriculation": 2017,
+        "avatar": "/media/profile_image/ss_for_promotion_ntmu.jpg"
+      },
+      "timestamp": "2020-03-03T18:11:33.740701+08:00",
+      "user_1_choice": 0,
+      "user_2_choice": 0,
+      "description": "No users currently matches your preference, the match provided will only follow your gender preferences.",
+      "successful": true
+    },
+    {
+      "id": 325,
+      "user_2": {
+        "id": 313,
+        "fullname": "Ching Ming Yang",
+        "gender": "Male",
+        "description": "Hi! My name is Ming Yang, I like to travel and explore new places and try food. Looking for friends to join me in my adventures.",
+        "hobbies": [
+          "Debate",
+          "Gaming",
+          "Music",
+          "Piano",
+          "Programming"
+        ],
+        "date_of_birth": "1998-01-26",
+        "country_of_origin": "Singapore",
+        "religion": "Buddhism",
+        "course_of_study": "Electrical & Electronic Engineering\n",
+        "year_of_matriculation": 2019,
+        "avatar": "/media/profile_image/selfie.png"
+      },
+      "timestamp": "2020-02-24T22:58:41.745484+08:00",
+      "user_1_choice": 0,
+      "user_2_choice": 0,
+      "description": "No users currently matches your preference, the match provided will only follow your gender preferences.",
+      "successful": true
+    },
+    {
+      "id": 303,
+      "user_2": {
+        "id": 312,
+        "fullname": "Leong Mei Han",
+        "gender": "Female",
+        "description": "Love to eat, sleep and play",
+        "hobbies": [
+          "Backpacking",
+          "Card games",
+          "Gaming",
+          "Photography"
+        ],
+        "date_of_birth": "1997-03-07",
+        "country_of_origin": "Singapore",
+        "religion": "Taoism",
+        "course_of_study": "Computer Science\n",
+        "year_of_matriculation": 2016,
+        "avatar": "/media/profile_image/52D634D7-C836-48AA-AC2B-9F6B0C76762A.jpeg"
+      },
+      "timestamp": "2020-02-24T22:19:41.157416+08:00",
+      "user_1_choice": 0,
+      "user_2_choice": 0,
+      "description": "No users currently matches your preference, the match provided will only follow your gender preferences.",
+      "successful": true
+    },
+    {
+      "id": 278,
+      "user_2": {
+        "id": 345,
+        "fullname": "Mikhail Ong Chee Yun",
+        "gender": "Male",
+        "description": "hi im mikhail, pronounced as michael",
+        "hobbies": [
+          "Amateur astronomy",
+          "Rowing",
+          "Tango"
+        ],
+        "date_of_birth": "1998-03-25",
+        "country_of_origin": "Singapore",
+        "religion": "Agnostic",
+        "course_of_study": "Public Policy And Global Affairs\n",
+        "year_of_matriculation": 2019,
+        "avatar": "/media/profile_image/Capture1_v6KZM7V.PNG"
+      },
+      "timestamp": "2020-02-24T22:15:08.520082+08:00",
+      "user_1_choice": 0,
+      "user_2_choice": 0,
+      "description": "No users currently matches your preference, the match provided will only follow your gender preferences.",
+      "successful": true
+    },
+    {
+      "id": 255,
+      "user_2": {
+        "id": 335,
+        "fullname": "Thomas Williams",
+        "gender": "Male",
+        "description": "Hey thomas from england!",
+        "hobbies": [
+          "Dodgeball",
+          "Piano",
+          "Squash"
+        ],
+        "date_of_birth": "1997-10-27",
+        "country_of_origin": "United Kingdom",
+        "religion": "Protestantism",
+        "course_of_study": "Engineering\n",
+        "year_of_matriculation": 2018,
+        "avatar": "/media/profile_image/pexels-photo-220453.jpeg"
+      },
+      "timestamp": "2020-02-23T18:11:17.123917+08:00",
+      "user_1_choice": 0,
+      "user_2_choice": 0,
+      "description": "No users currently matches your preference, the match provided will only follow your gender preferences.",
+      "successful": true
+    },
+    {
+      "id": 233,
+      "user_2": {
+        "id": 342,
+        "fullname": "Teresa Lim",
+        "gender": "Female",
+        "description": "hi im teresa lim",
+        "hobbies": [
+          "Baking",
+          "Cooking",
+          "Reading"
+        ],
+        "date_of_birth": "2000-11-25",
+        "country_of_origin": "Singapore",
+        "religion": "Catholicism",
+        "course_of_study": "Chemistry and Biological Chemistry\n",
+        "year_of_matriculation": 2019,
+        "avatar": "/media/profile_image/ss_for_promotion_ntmu_Ks3EOHs.jpg"
+      },
+      "timestamp": "2020-02-22T18:11:49.570109+08:00",
+      "user_1_choice": 0,
+      "user_2_choice": 0,
+      "description": "No users currently matches your preference, the match provided will only follow your gender preferences.",
+      "successful": true
+    },
+    {
+      "id": 209,
+      "user_2": {
+        "id": 311,
+        "fullname": "Yong Wei",
+        "gender": "Female",
+        "description": "I love to eat :)",
+        "hobbies": [
+          "Card games",
+          "Reading",
+          "Watching movies",
+          "Watching television"
+        ],
+        "date_of_birth": "1997-01-02",
+        "country_of_origin": "Singapore",
+        "religion": "Buddhism",
+        "course_of_study": "Accountancy And Business\n",
+        "year_of_matriculation": 2016,
+        "avatar": "/media/profile_image/IMG_20190831_064750.jpg"
+      },
+      "timestamp": "2020-02-22T18:11:33.201590+08:00",
+      "user_1_choice": 0,
+      "user_2_choice": 0,
+      "description": "No users currently matches your preference, the match provided will only follow your gender preferences.",
+      "successful": true
+    },
+    {
+      "id": 184,
+      "user_2": {
+        "id": 348,
+        "fullname": "Myo Thet Hnin",
+        "gender": "Others",
+        "description": "hi im myo, not mayo",
+        "hobbies": [
+          "Fencing",
+          "Yoga"
+        ],
+        "date_of_birth": "1999-07-20",
+        "country_of_origin": "Myanmar, {Burma}",
+        "religion": "Buddhism",
+        "course_of_study": "Art, Design & Media (ADM)\n",
+        "year_of_matriculation": 2019,
+        "avatar": "/media/profile_image/Capture1_bII7WUZ.PNG"
+      },
+      "timestamp": "2019-12-09T20:13:18.385469+08:00",
+      "user_1_choice": 0,
+      "user_2_choice": 0,
+      "description": "No users currently matches your preference, the match provided will only follow your gender preferences.",
+      "successful": true
+    },
+    {
+      "id": 161,
+      "user_2": {
+        "id": 336,
+        "fullname": "Jacob Quek",
+        "gender": "Male",
+        "description": "I love to go Karaoke soooo lets go !",
+        "hobbies": [
+          "Exercising",
+          "Singing"
+        ],
+        "date_of_birth": "1994-01-01",
+        "country_of_origin": "Singapore",
+        "religion": "Others",
+        "course_of_study": "Maritime Studies (ITG)\n",
+        "year_of_matriculation": 2016,
+        "avatar": "/media/profile_image/440px-Grosser_Panda_WZu3NL5.png"
+      },
+      "timestamp": "2019-12-09T20:11:22.337048+08:00",
+      "user_1_choice": 0,
+      "user_2_choice": 0,
+      "description": "No users currently matches your preference, the match provided will only follow your gender preferences.",
+      "successful": true
+    }
+  ]

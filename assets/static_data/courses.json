@@ -1,0 +1,326 @@
+[
+    {
+        "id": 177,
+        "name": "Accountancy\n"
+    },
+    {
+        "id": 178,
+        "name": "Accountancy (GA)\n"
+    },
+    {
+        "id": 179,
+        "name": "Accountancy (GB)\n"
+    },
+    {
+        "id": 180,
+        "name": "Accountancy And Business\n"
+    },
+    {
+        "id": 181,
+        "name": "Aerospace Engineering\n"
+    },
+    {
+        "id": 182,
+        "name": "Aerospace Engineering And Economics\n"
+    },
+    {
+        "id": 183,
+        "name": "Art, Design & Media\n"
+    },
+    {
+        "id": 184,
+        "name": "Art, Design & Media (ADM)\n"
+    },
+    {
+        "id": 185,
+        "name": "Art, Design & Media (ANIM)\n"
+    },
+    {
+        "id": 186,
+        "name": "Art, Design & Media (DA)\n"
+    },
+    {
+        "id": 187,
+        "name": "Art, Design & Media (DIPH)\n"
+    },
+    {
+        "id": 188,
+        "name": "Art, Design & Media (FILM)\n"
+    },
+    {
+        "id": 189,
+        "name": "Art, Design & Media (INME)\n"
+    },
+    {
+        "id": 190,
+        "name": "Art, Design & Media (MA)\n"
+    },
+    {
+        "id": 191,
+        "name": "Art, Design & Media (PROD)\n"
+    },
+    {
+        "id": 192,
+        "name": "Art, Design & Media (VISC)\n"
+    },
+    {
+        "id": 193,
+        "name": "Bioengineering\n"
+    },
+    {
+        "id": 194,
+        "name": "Bioengineering And Economics\n"
+    },
+    {
+        "id": 195,
+        "name": "Biological Sciences\n"
+    },
+    {
+        "id": 196,
+        "name": "Biological Sciences And Psychology\n"
+    },
+    {
+        "id": 197,
+        "name": "Biomedical Sciences\n"
+    },
+    {
+        "id": 198,
+        "name": "Biomedical Sciences And Biobusiness\n"
+    },
+    {
+        "id": 199,
+        "name": "Business\n"
+    },
+    {
+        "id": 200,
+        "name": "Business And Computer Engineering\n"
+    },
+    {
+        "id": 201,
+        "name": "Business And Computing\n"
+    },
+    {
+        "id": 202,
+        "name": "Chemical & Biomolecular Engineering\n"
+    },
+    {
+        "id": 203,
+        "name": "Chemical & Biomolecular Engineering And Economics\n"
+    },
+    {
+        "id": 204,
+        "name": "Chemistry and Biological Chemistry\n"
+    },
+    {
+        "id": 205,
+        "name": "Chinese\n"
+    },
+    {
+        "id": 206,
+        "name": "Civil Engineering\n"
+    },
+    {
+        "id": 207,
+        "name": "Civil Engineering And Economics\n"
+    },
+    {
+        "id": 208,
+        "name": "Communication Studies\n"
+    },
+    {
+        "id": 209,
+        "name": "Computer Engineering\n"
+    },
+    {
+        "id": 210,
+        "name": "Computer Engineering And Economics\n"
+    },
+    {
+        "id": 211,
+        "name": "Computer Science\n"
+    },
+    {
+        "id": 212,
+        "name": "Computer Science And Economics\n"
+    },
+    {
+        "id": 213,
+        "name": "Data Science And Artificial Intelligence\n"
+    },
+    {
+        "id": 214,
+        "name": "Economics\n"
+    },
+    {
+        "id": 215,
+        "name": "Economics And Media Analytics\n"
+    },
+    {
+        "id": 216,
+        "name": "Economics And Psychology\n"
+    },
+    {
+        "id": 217,
+        "name": "Economics And Public Policy & Global Affairs\n"
+    },
+    {
+        "id": 218,
+        "name": "Electrical & Electronic Engineering\n"
+    },
+    {
+        "id": 219,
+        "name": "Electrical & Electronic Engineering And Economics\n"
+    },
+    {
+        "id": 220,
+        "name": "Engineering\n"
+    },
+    {
+        "id": 221,
+        "name": "Engineering (CEE)\n"
+    },
+    {
+        "id": 222,
+        "name": "Engineering (EEE)\n"
+    },
+    {
+        "id": 223,
+        "name": "Engineering (ENE)\n"
+    },
+    {
+        "id": 224,
+        "name": "Engineering (ME)\n"
+    },
+    {
+        "id": 225,
+        "name": "English\n"
+    },
+    {
+        "id": 226,
+        "name": "English Literature And Art History\n"
+    },
+    {
+        "id": 227,
+        "name": "Environmental Earth Systems Science\n"
+    },
+    {
+        "id": 228,
+        "name": "Environmental Earth Systems Science And Public Policy & Global Affairs\n"
+    },
+    {
+        "id": 229,
+        "name": "Environmental Engineering\n"
+    },
+    {
+        "id": 230,
+        "name": "Environmental Engineering And Economics\n"
+    },
+    {
+        "id": 236,
+        "name": "History\n"
+    },
+    {
+        "id": 237,
+        "name": "Humanities\n"
+    },
+    {
+        "id": 238,
+        "name": "Information Engineering & Media\n"
+    },
+    {
+        "id": 239,
+        "name": "Information Engineering & Media And Economics\n"
+    },
+    {
+        "id": 240,
+        "name": "Linguistics & Multilingual Studies\n"
+    },
+    {
+        "id": 241,
+        "name": "Maritime Studies\n"
+    },
+    {
+        "id": 242,
+        "name": "Maritime Studies (ITG)\n"
+    },
+    {
+        "id": 243,
+        "name": "Maritime Studies (MSB)\n"
+    },
+    {
+        "id": 244,
+        "name": "Materials Engineering\n"
+    },
+    {
+        "id": 245,
+        "name": "Materials Engineering And Economics\n"
+    },
+    {
+        "id": 246,
+        "name": "Mathematical And Computer Sciences\n"
+    },
+    {
+        "id": 247,
+        "name": "Mathematical Sciences\n"
+    },
+    {
+        "id": 248,
+        "name": "Mathematical Sciences And Economics\n"
+    },
+    {
+        "id": 249,
+        "name": "Mathematics & Economics\n"
+    },
+    {
+        "id": 250,
+        "name": "Mechanical Engineering\n"
+    },
+    {
+        "id": 251,
+        "name": "Mechanical Engineering And Economics\n"
+    },
+    {
+        "id": 254,
+        "name": "Philosophy\n"
+    },
+    {
+        "id": 255,
+        "name": "Physical and Mathematical Sciences\n"
+    },
+    {
+        "id": 256,
+        "name": "Physics and Applied Physics\n"
+    },
+    {
+        "id": 257,
+        "name": "Psychology\n"
+    },
+    {
+        "id": 258,
+        "name": "Psychology And Linguistics & Multilingual Studies\n"
+    },
+    {
+        "id": 259,
+        "name": "Psychology And Media Analytics\n"
+    },
+    {
+        "id": 260,
+        "name": "Public Policy And Global Affairs\n"
+    },
+    {
+        "id": 261,
+        "name": "Renaissance Engineering\n"
+    },
+    {
+        "id": 262,
+        "name": "Social Sciences\n"
+    },
+    {
+        "id": 263,
+        "name": "Sociology"
+    },
+    {
+        "id": 264,
+        "name": "Sport Science & Management\n"
+    }
+]

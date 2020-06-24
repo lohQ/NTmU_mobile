@@ -1,0 +1,14 @@
+{
+    "id": 468,
+    "gender_preference": [],
+    "country_of_origin_preference": [],
+    "religion_preference": [],
+    "course_preference": [],
+    "timestamp": "2020-02-24T22:57:34.966997+08:00",
+    "age_preference_min": 18,
+    "age_preference_max": 49,
+    "year_of_matriculation_min": 2010,
+    "year_of_matriculation_max": 2018,
+    "number_of_days_to_receive_a_match": 1,
+    "interested_flag": true
+}

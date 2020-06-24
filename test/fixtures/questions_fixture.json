@@ -1,0 +1,22 @@
+[
+    {
+        "id": 20,
+        "question": "I would continue to use NTmU after its official release.",
+        "answer_type": 45
+    },
+    {
+        "id": 21,
+        "question": "I would recommend NTmU to my friends.",
+        "answer_type": 45
+    },
+    {
+        "id": 22,
+        "question": "What do you like the most about NTmU?",
+        "answer_type": 47
+    },
+    {
+        "id": 23,
+        "question": "What do you like the least about NTmU?",
+        "answer_type": 47
+    }
+]

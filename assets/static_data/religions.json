@@ -1,0 +1,51 @@
+
+[
+    {
+        "id": 1,
+        "name": "Agnostic"
+    },
+    {
+        "id": 2,
+        "name": "Atheist"
+    },
+    {
+        "id": 3,
+        "name": "Buddhism"
+    },
+    {
+        "id": 4,
+        "name": "Catholicism"
+    },
+    {
+        "id": 5,
+        "name": "Christianity"
+    },
+    {
+        "id": 6,
+        "name": "Hinduism"
+    },
+    {
+        "id": 7,
+        "name": "Islam"
+    },
+    {
+        "id": 8,
+        "name": "Sikhism"
+    },
+    {
+        "id": 9,
+        "name": "Jewish"
+    },
+    {
+        "id": 10,
+        "name": "Protestantism"
+    },
+    {
+        "id": 11,
+        "name": "Taoism"
+    },
+    {
+        "id": 12,
+        "name": "Others"
+    }
+]
