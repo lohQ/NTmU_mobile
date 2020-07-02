@@ -73,16 +73,16 @@ class PreferenceEditWidgetState extends State<PreferenceEditWidget>{
 
   void _saveChangedData(Preference pref){
     if(!listEquals(genderPref, pref.genderPref)){
-      dataToUpdate["gender_preference"] = genderPref;
+      dataToUpdate["gender_preference"] = StaticData.mapNamesToIds("genders", genderPref);
     }
     if(!listEquals(countryPref, pref.countryPref)){
-      dataToUpdate["country_of_origin_preference"] = countryPref;
+      dataToUpdate["country_of_origin_preference"] = StaticData.mapNamesToIds("countries", countryPref);
     }
     if(!listEquals(religionPref, pref.religionPref)){
-      dataToUpdate["religion_preference"] = religionPref;
+      dataToUpdate["religion_preference"] = StaticData.mapNamesToIds("religions", religionPref);
     }
     if(!listEquals(coursePref, pref.coursePref)){
-      dataToUpdate["course_preference"] = coursePref;
+      dataToUpdate["course_preference"] = StaticData.mapNamesToIds("courses", coursePref);
     }
     if(agePrefMin != pref.agePrefMin || agePrefMax != pref.agePrefMax){
       dataToUpdate["age_preference_min"] = agePrefMin;

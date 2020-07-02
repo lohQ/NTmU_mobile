@@ -1,4 +1,5 @@
 import 'package:clean_ntmu/features/profile/domain/entities/preference.dart';
+import 'package:clean_ntmu/features/static_data/domain/entities/static_data.dart';
 import 'package:meta/meta.dart';
 
 const int DEFAULT_AGE_MIN = 18;
@@ -27,10 +28,10 @@ class PreferenceModel extends Preference {
     final ageMax = json["age_preference_max"] == -1 ? DEFAULT_AGE_MAX : json["age_preference_max"];
     return PreferenceModel(
       id: json["id"],
-      genderPref: json["gender_preference"].cast<String>(),
-      countryPref: json["country_of_origin_preference"].cast<String>(),
-      religionPref: json["religion_preference"].cast<String>(),
-      coursePref: json["course_preference"].cast<String>(),
+      genderPref: StaticData.mapIdsToNames("genders", json["gender_preference"].cast<int>()),
+      countryPref: StaticData.mapIdsToNames("countries", json["country_of_origin_preference"].cast<int>()),
+      religionPref: StaticData.mapIdsToNames("religions", json["religion_preference"].cast<int>()),
+      coursePref: StaticData.mapIdsToNames("courses", json["course_preference"].cast<int>()),
       agePrefMin: ageMin,
       agePrefMax: ageMax,
       matricYearPrefMin: json["year_of_matriculation_min"],
@@ -43,10 +44,10 @@ class PreferenceModel extends Preference {
   Map<String,dynamic> toJson(){
     return {
       "id": id, 
-      "gender_preference": genderPref, 
-      "country_of_origin_preference": countryPref, 
-      "religion_preference": religionPref, 
-      "course_preference": coursePref, 
+      "gender_preference": StaticData.mapNamesToIds("genders", genderPref), 
+      "country_of_origin_preference": StaticData.mapNamesToIds("countries", countryPref), 
+      "religion_preference": StaticData.mapNamesToIds("religions", religionPref), 
+      "course_preference": StaticData.mapNamesToIds("courses", coursePref), 
       "age_preference_min": agePrefMin, 
       "age_preference_max": agePrefMax, 
       "year_of_matriculation_min": matricYearPrefMin, 

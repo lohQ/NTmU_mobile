@@ -53,6 +53,7 @@ class MatchingsPage extends StatelessWidget {
                 child: Text("History", style: TextStyle(fontSize: 20)),
               ),
               HistoryMatchingsRow(),
+              SizedBox(height: 30),
             ],
           ),
         );

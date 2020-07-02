@@ -11,7 +11,7 @@ class ForgetPasswordView extends StatelessWidget {
     return BlocProvider(
       create: (_)=>sl<ForgetPasswordBloc>(),
       child: Scaffold(
-        appBar: AppBar(title: Text("Forget password")),
+        appBar: AppBar(title: Text("Forgot password")),
         body: ForgetPasswordPage()
       )
     );

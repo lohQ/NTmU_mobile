@@ -1,8 +1,6 @@
-import 'package:equatable/equatable.dart';
-
 import 'name_with_id.dart';
 
-class StaticData extends Equatable{
+class StaticData{
 
   final Map<String,List<NameWithId>> data;
 
@@ -17,8 +15,24 @@ class StaticData extends Equatable{
     return instance;
   }
 
-  @override
-  List<Object> get props => [data];
+  static String mapIdToName(String keyName, int id){
+    return instance.data[keyName].firstWhere((item) => item.id == id).name;
+  }
 
+  static int mapNameToId(String keyName, String name){
+    return instance.data[keyName].firstWhere((item) => item.name == name).id;
+  }
+
+  static List<String> mapIdsToNames(String keyName, Iterable<int> ids){
+    return instance.data[keyName]
+      .where((item) => ids.contains(item.id))
+      .map((item)=>item.name).toList();
+  }
+
+  static List<int> mapNamesToIds(String keyName, Iterable<String> names){
+    return instance.data[keyName]
+      .where((item) => names.contains(item.name))
+      .map((item)=>item.id).toList();
+  }
 }
 

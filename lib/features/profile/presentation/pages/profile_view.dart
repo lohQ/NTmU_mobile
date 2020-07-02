@@ -31,8 +31,13 @@ class ProfilePageState extends State<ProfilePage>{
 
   @override
   Widget build(BuildContext context){
-    return BlocBuilder(
+    return BlocConsumer(
       bloc: BlocProvider.of<ProfileBloc>(context),
+      listener: (context, ProfileState state){
+        if(state is ProfileError){
+          print(state.error);
+        }
+      },
       builder: (context, ProfileState state){
         if(state.profile == null){
           return Center(child: CircularProgressIndicator());

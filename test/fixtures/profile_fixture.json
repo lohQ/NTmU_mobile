@@ -1,53 +1,20 @@
 {
-    "id": 316,
-    "fullname": "Chia Ching Chuen",
-    "gender": "Male",
-    "description": "Hello, My name is Ching Chuen and i am looking for more friends to talk about everything in life, sing songs and go out for movies and enjoyable things!",
+    "id": 310,
+    "fullname": "Royston Beh Zhi Yang",
+    "gender": 1,
+    "description": "Me is Beh. Me love to sleep. Don't disturb me zzz",
     "hobbies": [
-        "Badminton",
-        "Gaming",
-        "Rock climbing"
+      429,
+      468,
+      433,
+      435
     ],
-    "date_of_birth": "1994-09-11",
-    "country_of_origin": "Singapore",
-    "religion": "Buddhism",
-    "course_of_study": "Computer Science\n",
-    "year_of_matriculation": 2016,
-    "avatar": "http://127.0.0.1:8000/media/profile_image/CCC_Headshot_uQScBan.jpg",
+    "date_of_birth": "1995-11-15",
+    "country_of_origin": 157,
+    "religion": 5,
+    "course_of_study": 245,
+    "year_of_matriculation": 2018,
+    "avatar": "/media/profile_image/image_picker9017397231703990920.jpg",
     "days_to_match": 1,
-    "userpreference_set": [
-        {
-            "id": 262,
-            "gender_preference": [
-                "Others"
-            ],
-            "country_of_origin_preference": [
-                "Andorra"
-            ],
-            "religion_preference": [],
-            "course_preference": [
-                "Accountancy And Business\n"
-            ],
-            "timestamp": "2019-10-17T14:53:57.191598+08:00",
-            "age_preference_min": 18,
-            "age_preference_max": 49,
-            "year_of_matriculation_min": 2010,
-            "year_of_matriculation_max": 2018,
-            "number_of_days_to_receive_a_match": 1,
-            "interested_flag": false
-        }
-    ],
-    "reporter": [
-        {
-            "id": 31,
-            "timestamp": "2019-10-21T15:49:06.087988+08:00",
-            "category": "Others",
-            "description": "I think you should ask him to get a better photo.",
-            "actiontaken": "i have sent him an email regarding that request.",
-            "reviewed": true,
-            "reviewedby": "admin",
-            "reporter": 316,
-            "reportee": 306
-        }
-    ]
-}
+    "reporter": []
+  }

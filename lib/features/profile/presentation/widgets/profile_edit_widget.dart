@@ -320,16 +320,16 @@ class ProfileEditWidgetState extends State<ProfileEditWidget>{
       dataToUpdate["description"] = descContorller.text;
     }
     if(gender != profile.gender){
-      dataToUpdate["gender"] = gender;
+      dataToUpdate["gender"] = StaticData.mapNameToId("genders", gender);
     }
     if(country != profile.country){
-      dataToUpdate["country_of_origin"] = country;
+      dataToUpdate["country_of_origin"] = StaticData.mapNameToId("countries", country);
     }
     if(religion != profile.religion){
-      dataToUpdate["religion"] = religion;
+      dataToUpdate["religion"] = StaticData.mapNameToId("religions", religion);
     }
     if(course != profile.course){
-      dataToUpdate["course_of_study"] = course;
+      dataToUpdate["course_of_study"] = StaticData.mapNameToId("courses", course);
     }
     if(matricYear != profile.matricYear){
       dataToUpdate["year_of_matriculation"] = matricYear;
@@ -341,7 +341,7 @@ class ProfileEditWidgetState extends State<ProfileEditWidget>{
       dataToUpdate["avatar"] = avatarFile.path;
     }
     if(!listEquals(hobbies, profile.hobbies)){
-      dataToUpdate["hobbies"] = hobbies;
+      dataToUpdate["hobbies"] = StaticData.mapNamesToIds("hobbies", hobbies);
     }
   }
 

@@ -39,8 +39,9 @@ class ProfileLocalDataSourceImpl extends ProfileLocalDataSource {
         sharedPreferences.setInt(key, val);
       }else if(val is bool){
         sharedPreferences.setBool(key, val);
-      }else if(val is List<String>){
-        sharedPreferences.setStringList(key, val);
+      }else if(val is List<int>){
+        final castedList = val.map((item)=>item.toString()).toList();
+        sharedPreferences.setStringList(key, castedList);
       }else if(val is double){
         sharedPreferences.setDouble(key, val);
       }else{
@@ -52,7 +53,13 @@ class ProfileLocalDataSourceImpl extends ProfileLocalDataSource {
   Map<String,dynamic> _loadMap(List<String> keys){
     final resultMap = Map<String,dynamic>();
     for(final key in keys){
-      resultMap[key] = sharedPreferences.get(key);
+      final value = sharedPreferences.get(key);
+      if(value is List<String>){
+        final castedList = value.map((item)=>int.parse(item)).toList();
+        resultMap[key] = castedList;
+      }else{
+        resultMap[key] = value;
+      }
     }
     return resultMap;
   }

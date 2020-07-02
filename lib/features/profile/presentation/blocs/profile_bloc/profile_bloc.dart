@@ -71,7 +71,7 @@ class ProfileBloc extends Bloc<ProfileEvent, ProfileState> {
       print("initialized profile bloc");
       userSession = event.userSession;
       yield ProfileLoading(state.profile);
-      yield* loadLocalProfile();
+      // yield* loadLocalProfile();
       add(ReloadProfileEvent());
 
     } else if (event is UpdateProfileEvent) {

@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
           buttonTheme: ButtonThemeData(
             buttonColor: Color(0xFF212121),
             textTheme: ButtonTextTheme.primary
-          )
+          ),
         ),
         home: MainPage()
       )

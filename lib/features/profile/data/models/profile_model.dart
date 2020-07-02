@@ -1,4 +1,5 @@
 import 'package:clean_ntmu/core/constants/network_constants.dart';
+import 'package:clean_ntmu/features/static_data/domain/entities/static_data.dart';
 
 import '../../domain/entities/profile.dart';
 import 'package:meta/meta.dart';
@@ -28,11 +29,11 @@ class ProfileModel extends Profile {
       fullname: json["fullname"],
       description: json["description"],
       photoUrl: "$BASE_MEDIA_URL${json["avatar"]}",
-      gender: json["gender"],
-      country: json["country_of_origin"],
-      religion: json["religion"],
-      course: json["course_of_study"],
-      hobbies: json["hobbies"].cast<String>(),
+      gender: StaticData.mapIdToName("genders", json["gender"]),
+      country: StaticData.mapIdToName("countries", json["country_of_origin"]),
+      religion: StaticData.mapIdToName("religions", json["religion"]),
+      course: StaticData.mapIdToName("courses", json["course_of_study"]),
+      hobbies: StaticData.mapIdsToNames("hobbies", json["hobbies"].cast<int>()),
       matricYear: json["year_of_matriculation"],
       dateOfBirth: DateTime.parse(json["date_of_birth"])
     );
@@ -44,14 +45,18 @@ class ProfileModel extends Profile {
       "fullname": fullname, 
       "description": description, 
       "avatar": photoUrl.substring(BASE_MEDIA_URL.length), 
-      "gender": gender, 
-      "country_of_origin": country, 
-      "religion": religion, 
-      "course_of_study": course, 
-      "hobbies": hobbies,
+      "gender": StaticData.mapNameToId("genders", gender), 
+      "country_of_origin": StaticData.mapNameToId("countries", country), 
+      "religion": StaticData.mapNameToId("religions", religion), 
+      "course_of_study": StaticData.mapNameToId("courses", course), 
+      "hobbies": StaticData.mapNamesToIds("hobbies", hobbies),
       "year_of_matriculation": matricYear, 
       "date_of_birth": dateOfBirth.toString(),
     };
+  }
+
+  String toString(){
+    return toJson().toString();
   }
 
 }
