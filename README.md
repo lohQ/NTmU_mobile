@@ -15,4 +15,6 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-todo: image picker ios integration
+## Server
+
+This application is configured to run on emulators (url of server set to 10.0.2.2), with server running on localhost (127.x.x.x). 
